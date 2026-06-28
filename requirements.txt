@@ -1,0 +1,24 @@
+# ── Backend (API server) ──────────────────────────────────────
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+pydantic>=2.8.0,<3.0.0
+python-dotenv>=1.0.1,<2.0.0
+
+# ── Frontend (UI) ─────────────────────────────────────────────
+streamlit>=1.38.0,<2.0.0
+requests>=2.32.0,<3.0.0
+
+# ── Database ──────────────────────────────────────────────────
+mysql-connector-python>=9.0.0,<10.0.0
+
+# ── AI agent / LangGraph stack ────────────────────────────────
+langchain-core>=0.3.0,<0.4.0
+langchain-groq>=0.3.0,<0.4.0
+langchain-openai>=0.3.0,<0.4.0
+langchain-tavily>=0.1.0,<0.2.0
+langgraph>=0.2.0,<0.3.0
+
+# ── Dev / quality tooling (optional, recommended) ─────────────
+pytest>=8.3.0,<9.0.0
+black>=24.8.0,<25.0.0
+ruff>=0.6.0,<1.0.0
